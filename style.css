@@ -1,0 +1,87 @@
+*{
+    font-size: 18px;
+}
+body{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(img.jpg);
+}
+.Quadrado{
+    border-radius: 10%;
+    display: grid;
+    place-items: center;
+    width: 20%;
+    height: 500px;
+    background-color: grey;
+    position: relative;
+    top: 300px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(255,255,255,0.2);
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#inserirEmail, #inserirSenha{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+}
+input{
+    font-size: 20px;
+}
+.Quadrado .remember{
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+.Quadrado #sim{
+    position: relative;
+    right: 13px;
+    bottom: 2px;
+}
+#Login{
+    background-color: white;
+    width: 280px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+#Login:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Quadrado .Cabecalho{
+    text-align: center;
+}
+a{
+    color: blue;
+}
+#user{
+    position: relative;
+    right: 40px;
+    top: 5px;
+}
+#cadeado{
+    position: relative;
+    right: 22px;
+    top: 5px;
+}
+#inserirSenha{
+    margin-right: 0;
+    position: relative;
+    left: 15px;
+}
+#mostrarSenha{
+    background: none;
+    border: 0;
+    position: relative;
+    top: 5px;
+}
+#mostrarSenha:hover{
+    cursor: pointer;
+}

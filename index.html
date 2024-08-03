@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+</head>
+<body>
+    <div class="Quadrado">
+        <h1>Login</h1>
+        <div class="Email">
+            <input id="inserirEmail" type="email" placeholder="Email" name="conta">
+            <i class="fi fi-sr-user" id="user"></i>
+        </div>
+        <div class="Senha">
+            <input id="inserirSenha" type="password" placeholder="Password" name="password">
+            <i class="fi fi-sr-lock" id="cadeado"></i>
+            <button id="mostrarSenha" onclick="mostrar()"><i class="fi fi-rs-crossed-eye" id="Olho"></i></button>
+
+        </div>
+        <div class="remember">
+            <input type="checkbox" name="lembrar">
+            <label for="lembrar" id="sim">Remeber me</label>
+            <a href="" id="forget">Forget Password?</a>
+        </div>
+        <div class="Cabecalho">
+            <button id="Login">Log In</button>
+            <p>Don't have a account?<a href="">Register</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
